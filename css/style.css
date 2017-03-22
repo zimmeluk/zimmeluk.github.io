@@ -1,0 +1,79 @@
+
+
+ul {
+    text-align: center;
+    padding: 0px 0px;
+    margin: 0px;
+}
+
+nav a:hover {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.social-media-links {
+    float: left;
+}
+
+body {
+    padding-top: 50px;
+}
+
+.intro {
+    text-align: center;
+    display: inline-block;
+    width: 33%;
+}
+
+section {
+    width: 100%;
+    padding: 0 7%;
+    display: table;
+    background-color: #373B44;
+    height: 100vh;
+}
+
+h1 {
+    font-size: 36px;
+    text-align: center;
+    display: block;
+    color: white;
+    font-weight: 100;
+}
+
+h3 {
+    text-align: center;
+    display: block;
+    color: white;
+    font-weight: 100;
+}
+
+section h3 {
+  text-align: center;
+  color: white;
+}
+
+.navbar-brand {
+    font-size: 24px;
+}
+
+section .container {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.action-buttons {
+    width: 100%;
+    padding: 0 7%;
+    display: table;
+    background-color: #BD2C00;
+    height: 50vh;
+}
+
+.resume-buttons {
+    width: 100%;
+    padding: 0 7%;
+    display: table;
+    background-color: #4078C0;
+    height: 50vh;
+}

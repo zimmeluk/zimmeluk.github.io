@@ -1,9 +1,3 @@
 # zimmeluk.github.io
 
-The development home of my website!
-
-### Future Additions
-- [ ] Résumé
-- [ ] SD Project
-- [ ] MCA Project
-- [ ] PL Project
+The official development home of my personal website

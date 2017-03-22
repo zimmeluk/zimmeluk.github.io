@@ -1,20 +1,122 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <title>Luke Daniel Zimmerman</title>
-  <link rel="stylesheet" href="style.css">
+    <!-- The below three meta tags must come first in the head
+    Any other head content must come after these tags -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta name="description" content="Portfolio website for Luke Zimmerman">
+    <meta name="author" content="Luke Zimmerman">
+
+    <title>Luke Zimmerman</title>
+    
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
-  <header>
-    <h1>Luke Daniel Zimmerman</h1>
-    <nav>
-      <ul>
-        <li><a href="./about">About</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#blog">Blog</a></li>
-      </ul>
+    <!-- Fixed navbar -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                </button>
+                <a class="navbar-brand" href="#">Luke Zimmerman</a>
+            </div>
+            <div id="navbar" class="navbar-collapse collapse">
+                 <ul class="nav navbar-nav navbar-right">
+                    <li><a href="./about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#blog">Blog</a></li>
+                 </ul>
+            </div><!--/.nav-collapse -->
+        </div>
     </nav>
-  </header>
+
+    <!-- Jumbotron on the main page -->
+    <section>
+        <div class="container">
+            <h1>I'm Luke</h1>
+            <h3>a thrid year computer science student at St. Olaf College.</h3>
+        </div>
+    </section>
+
+    <!---
+    <section>
+        <h3>About Me</h3>
+        <article class=intro>Content</article>
+        <article class=intro>Content</article>
+        <article class=intro>Content</article>
+    </section> -->
+
+    <!-- From Bootstrap Template -->
+    <section class="action-buttons">
+    <div class="container">
+        <!-- Example row of columns -->
+        <div class="row">
+            <div class="col-md-4">
+                <h3>About</h3>
+                <p>Learn about my interests and some of the projects I've been working on.  Also, check out an online version of my resume. </p>
+                <!-- <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p> -->
+            </div>
+            <div class="col-md-4">
+                <h3>Projects</h3>
+                <p>Check out my current and past projects from courses at St. Olaf College.</p>
+                <!-- <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p> -->
+            </div>
+            <div class="col-md-4">
+                <h3>Blog</h3>
+                <p>Find out what's going on in my head and in the tech world.</p>
+                <!-- <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p> -->
+            </div>
+        </div>
+    </div>
+    </section>
+
+    <section class="resume-buttons">
+        <div class="container">
+        <h3>Check out my resume!</h3>
+        </div>
+    </section>
+
+    <hr>
+
+    <footer>
+        <!-- Include a Twitter Link -->
+        <!--
+        <div class=social-media-links>
+        <a href="https://twitter.com/zimmeluk" class="twitter-follow-button" 
+        data-show-count="false" data-size="large">Follow @zimmeluk</a>
+        
+        <script>!function(d,s,id) {
+            var js, fjs = d.getElementsByTagName(s)[0],
+            p = /^http:/.test(d.location)?'http':'https';
+            if (!d.getElementById(id)) {
+                js = d.createElement(s);
+                js.id = id;
+                js.src = p+'://platform.twitter.com/widgets.js';
+                fjs.parentNode.insertBefore(js, fjs);
+            }
+        } (document, 'script', 'twitter-wjs');
+        </script>
+        </div>
+        -->
+        <a href="https://twitter.com/zimmeluk"><img border = "0" alt="Twitter" src="./img/Twitter.png" width="64" height="64"></a>
+        <a href="https://www.facebook.com/luke.zimmerman.14661"><img border = "0" alt="Facebook" src="./img/Facebook.png" width="64" height="64"></a>
+        <a href="https://www.linkedin.com/in/lukedzimmerman/"><img border = "0" alt="LinkedIn" src="./img/Linkedin.png" width="64" height="64"></a>
+        <a href="https://github.com/zimmeluk"><img border = "0" alt="LinkedIn" src="./img/Github.png" width="64" height="64"></a>
+        
+    </footer>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
 </body>
 </html>
