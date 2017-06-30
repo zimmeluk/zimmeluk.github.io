@@ -7,8 +7,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <meta name="description" content="Portfolio website for Luke Zimmerman">
     <meta name="author" content="Luke Zimmerman">
+    <meta name="description" content="Portfolio website for Luke Zimmerman">
 
     <title>Luke Zimmerman</title>
 
@@ -27,12 +27,6 @@
 <body>
     <!-- Fixed navbar -->
     <div id="navbar"></div>
-
-    <script>
-    $(document).ready(function() {
-        $('#navbar').load('https://zimmeluk.github.io/nav.html');
-    });
-    </script>
 
     <!-- Jumbotron on the main page -->
     <section>
@@ -80,11 +74,16 @@
 
     <hr>
 
-    <footer>
-        <a href="https://twitter.com/zimmeluk"><img border = "0" alt="Twitter" src="/assets/img/TwitterGray.png" width="64" height="64"></a>
-        <a href="https://www.facebook.com/luke.zimmerman.14661"><img border = "0" alt="Facebook" src="/assets/img/FacebookGray.png" width="64" height="64"></a>
-        <a href="https://www.linkedin.com/in/lukedzimmerman/"><img border = "0" alt="LinkedIn" src="/assets/img/LinkedinGray.png" width="64" height="64"></a>
-        <a href="https://github.com/zimmeluk"><img border = "0" alt="LinkedIn" src="/assets/img/GithubGray.png" width="64" height="64"></a>
-    </footer>
+    <!-- Footer -->
+    <div id="footer"></div>
+
+    <!-- Include Files -->
+    <script>
+    $(document).ready(function() {
+        $('#navbar').load('https://zimmeluk.github.io/includes/nav.html')
+        $('#footer').load('https://zimmeluk.github.io/includes/footer.html');
+    });
+    </script>
+
 </body>
 </html>
