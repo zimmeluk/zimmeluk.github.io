@@ -13,9 +13,9 @@
     <title>Luke Zimmerman</title>
 
     <!-- Bootstrap -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" type="text/css">
 
-    <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/style.css" type="text/css">
 
     <!-- Bootstrap core JavaScript
     ================================================== -->
@@ -24,15 +24,15 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
 
-<body>
-    <!-- Fixed navbar -->
-    <div id="navbar"></div>
+<!-- Fixed navbar -->
+<div id="navbar"></div>
 
+<body>
     <!-- Jumbotron on the main page -->
     <section>
         <div class="container">
             <h1>I'm Luke</h1>
-            <h3>a fourth year computer science student at St. Olaf College.</h3>
+            <h3>a senior computer science major at St. Olaf College.</h3>
         </div>
     </section>
 
@@ -41,25 +41,22 @@
     <div class="container">
         <!-- Example row of columns -->
         <div class="row">
-            <a href="/about/">
+            <a href="./about/">
                 <div class="col-md-4">
                     <h3>About</h3>
-                    <p class="text-center">Learn about my interests and some of the projects I've been working on.  Also, check out an online version of my resume. </p>
-                    <!-- <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p> -->
+                    <p class="text-center">Learn about my interests and some of the projects I've been working on.  Also, check out an online version of my resume.</p>
                 </div>
             </a>
-            <a href="/projects/">
+            <a href="./projects/">
                 <div class="col-md-4">
                     <h3>Projects</h3>
                     <p class="text-center">Check out my current and past projects from courses at St. Olaf College.</p>
-                    <!-- <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p> -->
                 </div>
             </a>
-            <a href="#">
+            <a href="./blog">
                 <div class="col-md-4">
                     <h3>Blog</h3>
                     <p class="text-center">Find out what's going on in my head and in the tech world.</p>
-                    <!-- <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p> -->
                 </div>
             </a>
         </div>
@@ -68,7 +65,7 @@
 
     <section class="resume-buttons">
         <div class="container">
-        <h3>Check out my resume!</h3>
+        	<h3>Check out my resume!</h3>
         </div>
     </section>
 
@@ -76,14 +73,14 @@
 
     <!-- Footer -->
     <div id="footer"></div>
+</body>
 
-    <!-- Include Files -->
-    <script>
+<!-- Include Files -->
+<script>
     $(document).ready(function() {
         $('#navbar').load('https://zimmeluk.github.io/includes/nav.html')
         $('#footer').load('https://zimmeluk.github.io/includes/footer.html');
     });
-    </script>
+</script>
 
-</body>
 </html>

@@ -1,0 +1,25 @@
+h2 {
+	font-family: Helvetica, Arial, sans-serif;
+}
+
+h4 {
+	font-family: Times;
+	padding: 5px 0px;
+	border-bottom: 1px solid #000000;
+}
+
+p {
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 14px;
+}
+
+.figure {
+	margin: 10px 10px;
+}
+
+.figure-caption {
+	margin: 15px 0px;
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 12px;
+	text-align: center;
+}
