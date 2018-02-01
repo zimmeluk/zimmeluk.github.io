@@ -72,7 +72,6 @@ section .container {
 
 .action-buttons {
     width: 100%;
-    margin-bottom: 10em;
     padding: 0 7%;
     display: table;
     background-color: #BD2C00;
