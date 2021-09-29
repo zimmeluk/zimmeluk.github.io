@@ -1,6 +1,6 @@
 import Link from 'next/link'
 
-export default function Footer() {
+export default function Header() {
     return(
         // Fixed navbar
         <nav class="navbar navbar-default navbar-fixed-top">

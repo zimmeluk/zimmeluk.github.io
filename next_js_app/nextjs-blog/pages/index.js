@@ -20,7 +20,7 @@ export default function Home() {
       </Head>
 
       <main>
-        <Header></Header>
+        <Header />
         <h1 className="title">
           Learn <a href="https://nextjs.org">Next.js!</a>
         </h1>
@@ -70,7 +70,7 @@ export default function Home() {
           <img src="/vercel.svg" alt="Vercel" className="logo" />
         </a>
       </footer>
-      <Footer></Footer>
+      <Footer />
 
       <style jsx>{`
         .container {
