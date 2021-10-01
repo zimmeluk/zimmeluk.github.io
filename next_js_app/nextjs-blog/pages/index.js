@@ -1,6 +1,4 @@
 import Head from 'next/head'
-import Header from '../components/header'
-import Footer from '../components/footer'
 
 export default function Home() {
   return (
@@ -20,8 +18,10 @@ export default function Home() {
       </Head>
 
       <main>
-        <h1>Luke Zimmerman</h1>
-        <h3 className="text-2xl">Software Engineer at Preventice Solutions.</h3>
+        <section className="flex flex-col justify-center w-screen h-screen bg-gray-700">
+          <h1 className="align-middle">Luke Zimmerman</h1>
+          <h3 className="text-2xl align-middle">Software Engineer at Preventice Solutions.</h3>
+        </section>
       </main>
 
     </div>

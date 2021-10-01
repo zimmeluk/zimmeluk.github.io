@@ -10,7 +10,7 @@ export default function Header() {
       </div>
 
       <div id="navbar" className="hidden flex-1 md:flex justify-center navbar-collapse collapse">
-        <ul className="flex flex-row space-x-4">
+        <ul className="flex flex-row justify-evenly w-full">
           <li>
             <Link href={'/projects'}>
                 <a className="text-gray-500 hover:text-gray-800">Projects</a>
