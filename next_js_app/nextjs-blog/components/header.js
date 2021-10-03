@@ -3,7 +3,7 @@ import { IoIosSearch } from 'react-icons/io';
 
 export default function Header() {
   return(
-    <nav className="flex items-center w-screen bg-yellow-400">
+    <nav className="flex items-center w-screen nav-white">
       <div className="flex-1 md:hidden">
         <button id="navExpand">
         </button>
@@ -13,12 +13,12 @@ export default function Header() {
         <ul className="flex flex-row justify-evenly w-full">
           <li>
             <Link href={'/projects'}>
-                <a className="text-gray-500 hover:text-gray-800">Projects</a>
+              <a className="text-gray-500 hover:text-gray-800">Projects</a>
             </Link>
           </li>
           <li>
             <Link href={'/blog'}>
-                <a className="text-gray-500 hover:text-gray-800">Blog</a>
+              <a className="text-gray-500 hover:text-gray-800">Blog</a>
             </Link>
           </li>
         </ul>
@@ -28,7 +28,9 @@ export default function Header() {
         <button type="button" className="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
           <span className="sr-only">Toggle navigation</span>
         </button>
-        <a className="text-xl" href="/">Luke Zimmerman</a>
+        <Link href={'/'}>
+          <a className="text-xl">Luke Zimmerman</a>
+        </Link>
       </div>
 
       <div className="flex flex-1 flex-row-reverse">
